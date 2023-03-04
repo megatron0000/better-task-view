@@ -1,0 +1,12 @@
+/* 
+ * patches to jsuites library style 
+ */
+
+.jcontextmenu > div {
+  width: auto !important;
+  cursor: pointer;
+  font-family: inherit !important;
+  font-size: 0.8rem !important;
+  display: inline-block;
+  padding: 8px !important;
+}

@@ -1,0 +1,47 @@
+.desktop-button {
+  font-size: 0.8rem;
+  padding: 10px;
+  background-color: lightblue;
+  margin: 5px;
+  margin-top: 0;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 2px solid teal;
+  border-top: 0;
+  position: relative;
+}
+
+.desktop-button:hover {
+  cursor: pointer;
+}
+
+.desktop-button.active {
+  background-color: darkblue !important;
+  color: white;
+}
+
+.desktop-button.viewing {
+  background-color: violet;
+  padding-top: 20px;
+  transition-property: all;
+  transition-duration: 200ms;
+}
+
+.desktop-button.dragging {
+  opacity: 0.5;
+}
+
+.desktop-button__name {
+  padding: 0px 10px;
+  display: inline-block;
+  z-index: 2;
+  font-weight: bold;
+  cursor: auto;
+  user-select: none;
+}
+
+.desktop-button__input {
+  border: none;
+  padding: 2px;
+}

@@ -1,0 +1,17 @@
+.window-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.window-list.selecting,
+.window-list.selecting * {
+  cursor: cell;
+}
+
+h1.nowindow {
+  font-size: 20vh;
+}

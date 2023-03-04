@@ -1,0 +1,67 @@
+.window-rect {
+  border: 4px solid rgb(66, 66, 66);
+  border-radius: 2px;
+  background-color: black;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.window-rect:hover {
+  border-color: slateblue;
+  cursor: pointer;
+}
+
+.window-rect.selected {
+  border-color: whitesmoke;
+}
+
+.window-rect.selected:hover {
+  border-color: whitesmoke;
+}
+
+.window-rect__title {
+  width: 100%;
+  height: 24px;
+  background-color: black;
+  color: white;
+  white-space: nowrap;
+  font-size: 0.8rem;
+  overflow: hidden;
+  border-radius: 1%;
+}
+
+.window-rect.selected .window-rect__title {
+  background-color: whitesmoke;
+  color: black;
+}
+
+/* https://codepen.io/cyril-lamotte/pen/bGVxjOr */
+.window-rect__btn-close {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: hsl(216, 100, 50);
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 150ms;
+  opacity: 0;
+}
+
+.window-rect__btn-close:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.window-rect__thumbnail {
+  flex-grow: 1;
+}

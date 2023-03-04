@@ -1,0 +1,8 @@
+.desktop-list {
+  /* padding: 0px 10px 0px 10px; */
+  height: 60px;
+  display: flex;
+  align-items: flex-start;
+  overflow: hidden;
+  justify-content: center;
+}

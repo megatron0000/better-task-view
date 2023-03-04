@@ -1,0 +1,28 @@
+{
+  "name": "better-task-view",
+  "version": "1.0.0",
+  "scripts": {
+    "watch-web": "webpack build --watch",
+    "build-web": "webpack build",
+    "build-ahk": "node src/scripts/build-ahk.js",
+    "build": "npm run build-web && npm run build-ahk"
+  },
+  "keywords": [
+    "task view",
+    "windows 10",
+    "windows 11",
+    "thumbnail",
+    "autohotkey"
+  ],
+  "author": "Vitor Arruda",
+  "license": "GPLv3", 
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
