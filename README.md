@@ -1,6 +1,6 @@
 # better-task-view
 
-![docs/images/logo.png](docs/images/logo.png)
+<img src="docs/images/logo.png" width=200>
 
 Better Task View is an open-source JavaScript and AutoHotkey project that aims to provide a faster replacement for the Windows 10 Task View.
 
